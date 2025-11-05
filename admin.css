@@ -1,0 +1,287 @@
+/* ========================================================================
+   Admin Panel Styles - Apple-inspired, Clean & User-Friendly
+   ======================================================================== */
+
+:root {
+    --bg-color: #f0f2f5; /* Lighter background */
+    --card-bg-color: #ffffff;
+    --text-color: #333;
+    --label-color: #555;
+    --border-color: #d1d5db;
+    --accent-color: #1abc9c; /* Green accent */
+    --danger-color: #e74c3c; /* Red for remove */
+    --success-color: #2ecc71; /* Green for success */
+    --nested-bg-color: #f9fafb; /* Lighter nested background */
+    --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body {
+    font-family: var(--font-family);
+    line-height: 1.5;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+    margin: 0;
+    padding: 0; /* Remove body padding, layout handles it */
+    display: flex; /* For password prompt centering if needed */
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.admin-layout {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--card-bg-color);
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+#sideNav {
+    width: 240px;
+    background-color: #2c3e50; /* Darker sidebar */
+    color: #ecf0f1;
+    padding: 20px 0;
+    height: 100%;
+    overflow-y: auto;
+    flex-shrink: 0;
+}
+
+#sideNav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#sideNav li a {
+    display: block;
+    color: #ecf0f1;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    border-left: 3px solid transparent;
+    transition: background-color 0.2s ease, border-left-color 0.2s ease;
+}
+
+#sideNav li a:hover {
+    background-color: #34495e;
+}
+
+#sideNav li a.active {
+    background-color: var(--accent-color); /* Accent color for active */
+    color: #fff;
+    font-weight: 500;
+    border-left-color: #16a085; /* Slightly darker accent */
+}
+
+#contentPanels {
+    flex: 1;
+    padding: 30px;
+    overflow-y: auto;
+    background-color: var(--nested-bg-color); /* Lighter content background */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack children vertically */
+}
+
+#contentPanels h1 {
+    color: #2c3e50;
+    margin-top: 0;
+    margin-bottom: 25px;
+    font-size: 24px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 15px;
+    flex-shrink: 0; /* Prevent header from shrinking */
+}
+
+#configForm {
+     flex-grow: 1; /* Allow form to take remaining space */
+     display: flex;
+     flex-direction: column;
+}
+
+.content-panel-container {
+     flex-grow: 1; /* Allow panels container to grow */
+     overflow-y: auto; /* Add scroll to panels if needed, separate from main area */
+     margin-bottom: 20px; /* Space before save area */
+}
+
+
+.content-panel {
+    display: none;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+.content-panel.active {
+    display: block;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.content-panel h2 { /* Replaces fieldset legend */
+    font-size: 20px;
+    color: #34495e;
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+/* Form element styling */
+label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--label-color);
+}
+
+input[type="text"],
+input[type="url"],
+input[type="email"],
+input[type="tel"],
+input[type="datetime-local"],
+textarea,
+select {
+    width: 100%; /* Full width within its container */
+    padding: 12px;
+    margin-top: 5px;
+    border: 1px solid var(--border-color); /* Softer border */
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-size: 14px;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+input[type="checkbox"] {
+     width: auto; /* Checkboxes shouldn't be full width */
+     margin-right: 8px;
+     vertical-align: middle;
+}
+label.checkbox-label { /* Style label next to checkbox */
+     display: inline-block;
+     vertical-align: middle;
+     margin-top: 0;
+     margin-bottom: 0;
+     font-weight: normal;
+}
+
+
+input[type="text"]:focus,
+input[type="url"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="datetime-local"]:focus,
+textarea:focus,
+select:focus {
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 2px rgba(26, 188, 156, 0.2);
+    outline: none;
+}
+
+
+textarea { min-height: 100px; resize: vertical; }
+
+.save-area {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 1px solid #e0e0e0;
+    flex-shrink: 0; /* Prevent save area from shrinking */
+}
+
+button[type="submit"] {
+    background-color: var(--accent-color); /* Primary action color */
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.2s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #16a085; /* Darker shade on hover */
+}
+
+.hidden { display: none !important; } /* Ensure password protection works */
+
+.form-group { margin-bottom: 20px; }
+
+/* Styles for dynamic items (like prize images, steps, faq) */
+.dynamic-item-group {
+    border: 1px solid var(--border-color);
+    background-color: var(--card-bg-color);
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+.dynamic-item-group h4 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 16px;
+    color: #2c3e50;
+}
+.dynamic-item-controls {
+     text-align: right;
+     margin-top: 10px;
+}
+.dynamic-item-controls button {
+     background: none;
+     border: none;
+     color: var(--danger-color); /* Red for remove */
+     cursor: pointer;
+     font-size: 1.2em;
+     padding: 5px;
+     margin-left: 5px;
+}
+ .dynamic-item-controls button.add-item {
+     color: var(--success-color); /* Green for add */
+     font-size: 1em;
+     background-color: #e8f8f0;
+     padding: 5px 10px;
+     border-radius: 4px;
+     margin-left: 0;
+ }
+ .dynamic-item-controls button:hover {
+     opacity: 0.7;
+ }
+
+
+#message {
+    margin-top: 20px;
+    padding: 12px 15px;
+    border-radius: 6px;
+    font-size: 14px;
+}
+.success { background-color: #d1fae5; color: #065f46; border: 1px solid #a7f3d0; }
+.error { background-color: #fee2e2; color: #991b1b; border: 1px solid #fecaca; }
+
+fieldset {
+    border: 1px solid var(--border-color);
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 6px;
+    background-color: var(--card-bg-color);
+}
+legend {
+    font-weight: 500;
+    font-size: 16px;
+    padding: 0 10px;
+    color: #2c3e50;
+}
+.panel-description {
+    font-size: 14px;
+    color: var(--label-color);
+    margin-bottom: 20px;
+    font-style: italic;
+}
+
+.form-help {
+    display: block;
+    font-size: 12px;
+    color: #666;
+    margin-top: 5px;
+    font-style: italic;
+}
