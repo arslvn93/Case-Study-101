@@ -37,7 +37,7 @@ const config = {
     "summary": {
       "title": "How We Sold This 2-Bedroom Toronto Condo for $4.8 Million Above Asking in Just 12 Days with 52 Competing Offers",
       "heroImage": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1762374721550-Dan-Losier.jpg"
       },
       "subTitle": "Summary",
       "paragraphs": [
@@ -87,7 +87,7 @@ const config = {
         "After researching agents and seeing lackluster results from other listings in their building, they chose to work with us because of our track record with condo sales in downtown Toronto. They were drawn to our data-driven approach and our ability to create competition rather than just wait for the right buyer to come along."
       ],
       "image": {
-        "src": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?fit=crop&w=800&q=80"
+        "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1762374731743-images (1).jpeg"
       }
     },
     {
