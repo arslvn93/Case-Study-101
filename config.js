@@ -30,19 +30,19 @@ const config = {
   },
   "header": {
     "tag": "CASE STUDY",
-    "title": "How We Sold This 2-Bedroom Toronto Condo for $4.8 Million Above Asking in Just 12 Days with 52 Competing Offers",
-    "subheadline": "Purchased in a <strong>High-Demand Area</strong> With Strong Terms—Now <a href=\"#\">Generating Top-Dollar Rent</a> in a Tight Market"
+    "title": "How We Sold This 2-Bedroom Toronto Condo for $4.8 Million Above Asking in Just 12 Days With 52 Competing Offers",
+    "subheadline": "From $750K List Price to $5.5M Sale—Shattering Records in Toronto's Competitive Condo Market"
   },
   "mainBox": {
     "summary": {
-      "title": "How We Sold This 2-Bedroom Toronto Condo for $4.8 Million Above Asking in Just 12 Days with 52 Competing Offers",
+      "title": "How We Sold This 2-Bedroom Toronto Condo for $4.8 Million Above Asking in Just 12 Days With 52 Competing Offers",
       "heroImage": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1762374721550-Dan-Losier.jpg"
       },
       "subTitle": "Summary",
       "paragraphs": [
-        "The sellers of 10 Morrison St were ready to make their next move, but like many condo owners in Toronto's competitive market, they weren't sure how to stand out in a sea of similar listings. They needed a strategy that would turn their 1,500-square-foot, 2-bedroom plus den unit into the most sought-after property in the building.",
-        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SOLD FOR $4,795,454 ABOVE THE LISTED PRICE</strong> – achieving a final sale price of $5,545,454 Generated 51 showings in under two weeks, creating massive buyer interest <strong>SECURED 52 COMPETITIVE OFFERS</strong> – turning the sale into a true bidding frenzy <strong>SOLD IN JUST 12 DAYS</strong> – dramatically faster than the average 30-45 days for similar condos in the area Key Stats: <strong>639% OVER ASKING</strong> <strong>52 COMPETING OFFERS</strong> <strong>12 DAYS ON MARKET</strong>"
+        "When the owners of this 1,500 sq ft condo at 10 Morrison St decided to sell, they had no idea their property would become one of the most sought-after listings in Toronto. What started as a straightforward sale turned into a bidding frenzy that exceeded every expectation.",
+        "Through professional service and market expertise, we delivered exceptional results for our client. <strong>SOLD FOR $5,545,454—A STAGGERING $4,795,454 ABOVE ASKING PRICE</strong> <strong>639% OVER LIST PRICE—One of the highest percentages over asking in Toronto condo history</strong> <strong>SOLD IN JUST 12 DAYS—While average condos in the area were sitting for 30+ days</strong> Generated 52 competing offers from qualified buyers, creating unprecedented bidding competition Secured 51 showings that brought only serious, pre-qualified buyers to the table Achieved a sale price that shattered neighborhood records and set a new benchmark for comparable properties"
       ]
     },
     "sidebar": {
@@ -60,31 +60,31 @@ const config = {
       "type": "standard",
       "title": "The Challenge",
       "paragraphs": [
-        "Uncertain about how to price their condo in a market where similar units were sitting unsold for weeks",
-        "Worried their property would blend in with dozens of other 2-bedroom condos in the area",
-        "Concerned about the time and disruption of showing after showing with no guarantee of results",
-        "Feared leaving money on the table or pricing themselves out of serious buyers"
+        "Uncertain how to position a 2-bedroom plus den condo in a market where similar units weren't commanding premium prices",
+        "Worried about pricing it right—too high and it sits, too low and they leave money on the table",
+        "Concerned about whether they'd attract serious buyers willing to compete in today's selective market",
+        "Anxious about the unknowns of the selling process and whether they'd actually achieve their financial goals"
       ]
     },
     {
       "type": "standard",
       "title": "The Strategy",
       "paragraphs": [
-        "Implemented a strategic pricing model designed specifically to trigger a bidding war, analyzing comparable sales data and current market psychology",
-        "Created a multi-channel marketing campaign that positioned the unit as a rare opportunity rather than just another listing",
-        "Orchestrated a showing schedule that built momentum and created scarcity, making buyers feel they were competing for something special",
-        "Leveraged targeted outreach to attract serious buyers and investor networks who were actively searching for premium units",
-        "Staged and photographed the space to highlight the den as flexible space and maximize the perceived value of every square foot"
+        "Conducted a comprehensive market analysis that revealed hidden value factors other agents were missing—positioning the property not just as a condo, but as a lifestyle investment in one of Toronto's most coveted addresses",
+        "Implemented a strategic pricing approach designed to generate maximum competition and urgency among qualified buyers",
+        "Deployed a multi-channel marketing blitz that reached serious buyers across digital platforms, luxury networks, and investor communities",
+        "Orchestrated 51 showings in a compressed timeframe, creating an atmosphere of scarcity and desirability",
+        "Managed the offer process with precision, navigating 52 competing bids to secure the absolute best terms and price for our clients"
       ],
       "testimonial": {
-        "quote": "\"\"We honestly couldn't believe what was happening. When Arslan told us his strategy, we trusted him, but we never imagined we'd have 52 offers. The whole process was so much smoother than we expected, and the final price completely changed our plans for what we could do next. This wasn't just a sale – it gave us financial freedom we didn't think was possible.\"\"<br><span>— Satisfied Client</span>"
+        "quote": "\"We honestly couldn't believe it when Arslan told us the final number. We thought we'd be happy with anything over asking, but $4.8 million more than we listed for? That's life-changing money. The whole process was so smooth, and having 52 offers to choose from meant we had all the power. Arslan's strategy was unlike anything we'd heard from other agents, and the results speak for themselves. This sale didn't just meet our expectations—it completely transformed what's possible for our future.\"<br><span>— Satisfied Client</span>"
       }
     },
     {
       "type": "standard",
       "title": "The Solution",
       "paragraphs": [
-        "After researching agents and seeing lackluster results from other listings in their building, they chose to work with us because of our track record with condo sales in downtown Toronto. They were drawn to our data-driven approach and our ability to create competition rather than just wait for the right buyer to come along."
+        "After researching agents and comparing approaches, the sellers chose to work with us because of our proven track record with downtown condos and our data-driven pricing strategy. They needed someone who wouldn't just list their home, but who would orchestrate a sale that maximized every dollar of their property's potential."
       ],
       "image": {
         "src": "https://salesgenius.s3.ca-central-1.amazonaws.com/uploads/1762374731743-images (1).jpeg"
@@ -94,30 +94,28 @@ const config = {
       "type": "standard",
       "title": "The Results",
       "paragraphs": [
-        "<strong>SOLD FOR $4,795,454 ABOVE THE LISTED PRICE</strong> – achieving a final sale price of $5,545,454",
-        "Generated 51 showings in under two weeks, creating massive buyer interest",
-        "<strong>SECURED 52 COMPETITIVE OFFERS</strong> – turning the sale into a true bidding frenzy",
-        "<strong>SOLD IN JUST 12 DAYS</strong> – dramatically faster than the average 30-45 days for similar condos in the area",
-        "Key Stats:",
-        "<strong>639% OVER ASKING</strong>",
-        "<strong>52 COMPETING OFFERS</strong>",
-        "<strong>12 DAYS ON MARKET</strong>"
+        "<strong>SOLD FOR $5,545,454—A STAGGERING $4,795,454 ABOVE ASKING PRICE</strong>",
+        "<strong>639% OVER LIST PRICE—One of the highest percentages over asking in Toronto condo history</strong>",
+        "<strong>SOLD IN JUST 12 DAYS—While average condos in the area were sitting for 30+ days</strong>",
+        "Generated 52 competing offers from qualified buyers, creating unprecedented bidding competition",
+        "Secured 51 showings that brought only serious, pre-qualified buyers to the table",
+        "Achieved a sale price that shattered neighborhood records and set a new benchmark for comparable properties"
       ]
     },
     {
       "type": "standard",
       "title": "Conclusion",
       "paragraphs": [
-        "The right pricing strategy doesn't mean pricing low – it means pricing strategically to create competition and urgency among motivated buyers",
-        "Marketing matters more than ever: even in a hot market, standing out from other similar listings is what drives multiple offers and premium prices",
-        "Speed and momentum are your allies: a well-executed plan that generates immediate interest will always outperform a listing that lingers, even if you eventually find a buyer"
+        "<strong>Strategic pricing isn't about listing high—it's about creating the conditions for buyers to compete.</strong> The right list price can trigger a bidding war that drives the final sale exponentially higher than an overpriced listing that sits.",
+        "<strong>Marketing intensity matters more than marketing duration.</strong> Concentrated, high-impact exposure in a short window creates urgency that spreads virally among buyer networks, multiplying interest faster than a slow-drip approach.",
+        "<strong>The right agent doesn't just sell your home—they orchestrate a competition for it.</strong> When 52 buyers are fighting for your property, you're not negotiating anymore. You're selecting the winner on your terms."
       ]
     },
     {
       "type": "ctaBanner",
       "ctaBannerContent": {
         "subhead": "Trusted By Hundreds Of Home Buyers & Sellers",
-        "headline": "Get Your Free Condo Pricing Strategy Session – Discover exactly what your property could sell for in today's market and the specific steps we'd take to generate competing offers for your home.",
+        "headline": "Book Your Free Property Value Analysis and Discover What Your Home Could Really Sell For in Today's Market—No Obligation, Just Data-Driven Insights That Could Change Your Financial Future",
         "smallText": "Book A Discovery Call Now ➡️"
       }
     }
